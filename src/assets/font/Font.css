@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "lucky";
+  src: url(./LuckiestGuy-Regular.ttf);
+}
+@font-face {
+  font-family: "nexon";
+  src: url(./NEXON\ Lv2\ Gothic.ttf);
+}
+@font-face {
+  font-family: "nexonB";
+  src: url(./NEXON\ Lv2\ Gothic\ Bold.ttf);
+}
+@font-face {
+  font-family: "nexonM";
+  src: url(./NEXON\ Lv2\ Gothic\ Medium.ttf);
+}
+@font-face {
+  font-family: "nexonL";
+  src: url(./NEXON\ Lv2\ Gothic\ Light.ttf);
+}
