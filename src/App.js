@@ -2,11 +2,11 @@
 import React from "react";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import { Helmet } from "react-helmet";
 import { styled, createGlobalStyle } from "styled-components";
 
 // ------- styled components -------
 const GlobalStyle = createGlobalStyle`
-@import url("../src/assets/font/Font.css");
 /* reset & font */
 * {
     margin: 0;
@@ -31,6 +31,9 @@ const Container = styled.div`
 function App() {
   return (
     <Container>
+      <Helmet>
+        <link rel="stylesheet" href="../src/assets/font/Font.css" />
+      </Helmet>
       <GlobalStyle />
       <Header />
       <Home />
