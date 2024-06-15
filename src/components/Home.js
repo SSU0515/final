@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import font from "../assets/font/Font.css";
 import star from "../assets/img/twinkle1.png";
 import star2 from "../assets/img/starcow.png";
 import star6 from "../assets/img/starcow2.png";
@@ -31,6 +30,7 @@ const TitleBox = styled(motion.div)`
 `;
 
 const Title = styled.h1`
+  @import url("../assets/font/Font.css");
   font-family: "lucky";
   font-size: 100px;
   letter-spacing: 5px;
@@ -43,6 +43,8 @@ const Title = styled.h1`
 `;
 
 const MidTitle = styled.p`
+  @import url("../assets/font/Font.css");
+
   font-family: "nexon";
   font-weight: 400;
   font-size: 24px;
@@ -101,6 +103,8 @@ const ClickBox = styled(motion.div)`
   right: 70px;
 `;
 const ClickTitle = styled(motion.p)`
+  @import url("../assets/font/Font.css");
+
   width: 145px;
   font-family: "nexon";
   font-weight: 400;

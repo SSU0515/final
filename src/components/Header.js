@@ -52,19 +52,19 @@ const Header = () => {
       <Nav>
         <ul>
           <li>
-            <a>Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a>About</a>
+            <a href="#">About</a>
           </li>
           <li>
-            <a>Work</a>
+            <a href="#">Work</a>
           </li>
           <li>
-            <a>Design</a>
+            <a href="#">Design</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#">Contact</a>
           </li>
         </ul>
       </Nav>
