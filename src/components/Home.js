@@ -12,6 +12,7 @@ import swing from "../assets/img/suswing.png";
 import cloud from "../assets/img/cloud1.png";
 import cloud2 from "../assets/img/cloud2.png";
 import About from "./About";
+import Skill from "./Skill";
 
 const Container = styled.div`
   border: 1px solid #fff;
@@ -19,7 +20,6 @@ const Container = styled.div`
   max-width: 1920px;
   height: 7730px;
   position: relative;
-  overflow: hidden;
   background-color: #110f0f;
 `;
 
@@ -145,12 +145,14 @@ const Cloud = styled(motion.img)`
   position: absolute;
   top: 490px;
   right: -150px;
+  z-index: 1;
 `;
 const Cloud2 = styled(motion.img)`
   width: 617px;
   position: absolute;
   top: 450px;
   left: -150px;
+  z-index: 1;
 `;
 
 const Home = () => {
@@ -285,6 +287,7 @@ const Home = () => {
         alt="Cloud2"
       />
       <About />
+      <Skill />
     </Container>
   );
 };

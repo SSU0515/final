@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 li {
     list-style: none;
@@ -26,6 +27,7 @@ const Container = styled.div`
   width: 100%;
   height: 100vh;
   background-color: #110f0f;
+  overflow-x: hidden;
 `;
 
 function App() {
