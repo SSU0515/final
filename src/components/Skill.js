@@ -17,6 +17,7 @@ const Container = styled(motion.div)`
   width: 100%;
   height: 1500px;
   position: relative;
+  margin-bottom: 400px;
 `;
 
 const TitleBox = styled.div`
@@ -113,7 +114,7 @@ const Skill = () => {
       whileInView={{
         opacity: 1,
         y: 0,
-        transition: { delay: 0.5 },
+        transition: { delay: 0.3 },
       }}
     >
       <LionStar src={lion} alt="lion" />

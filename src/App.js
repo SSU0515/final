@@ -28,6 +28,8 @@ const Container = styled.div`
   height: 100vh;
   background-color: #110f0f;
   overflow-x: hidden;
+  max-width: 1920px;
+  min-width: 1280px;
 `;
 
 function App() {

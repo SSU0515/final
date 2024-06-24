@@ -13,11 +13,13 @@ import cloud from "../assets/img/cloud1.png";
 import cloud2 from "../assets/img/cloud2.png";
 import About from "./About";
 import Skill from "./Skill";
+import Work from "./Work";
+import Design from "./Design";
 
 const Container = styled.div`
-  border: 1px solid #fff;
   width: 100%;
   max-width: 1920px;
+  min-width: 1280px;
   height: 7730px;
   position: relative;
   background-color: #110f0f;
@@ -288,6 +290,8 @@ const Home = () => {
       />
       <About />
       <Skill />
+      <Work />
+      <Design />
     </Container>
   );
 };
