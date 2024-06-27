@@ -2,7 +2,6 @@ export const work = [
   {
     id: 1,
     category: "clone",
-    img: "./thumnail/blogthum.png",
     link: "https://martinkim-clone.web.app/",
     title: "Matin Kim",
     period: "1",
@@ -12,7 +11,6 @@ export const work = [
   {
     id: 2,
     category: "clone",
-    img: "./thumnail/blogthum.png",
     link: "https://etude-boo-0329.web.app/",
     title: "Atude",
     period: "1",
@@ -22,7 +20,6 @@ export const work = [
   {
     id: 3,
     category: "clone",
-    img: "./thumnail/blogthum.png",
     link: "https://hereok-ssu-project.web.app",
     title: "여기어때",
     period: "1",
@@ -32,7 +29,6 @@ export const work = [
   {
     id: 4,
     category: "example",
-    img: "./thumnail/blogthum.png",
     link: "https://canvanver01.netlify.app",
     title: "canvan(JS)",
     period: "1",
@@ -42,7 +38,6 @@ export const work = [
   {
     id: 5,
     category: "project",
-    img: "/src/assets/img/thumnail/canvanthum.png",
     link: "https://canvanver01.netlify.app",
     title: "todolist(React)",
     period: "1",
@@ -52,7 +47,6 @@ export const work = [
   {
     id: 6,
     category: "project",
-    img: "/src/assets/img/thumnail/apithum.png",
     link: "https://superb-hummingbird-52f149.netlify.app",
     title: "login & todolist(Node.js)",
     period: "1",
@@ -62,7 +56,6 @@ export const work = [
   {
     id: 7,
     category: "etc",
-    img: "/src/assets/img/thumnail/blogthum.png",
     link: "https://blog8090.netlify.app",
     title: "Blog",
     period: "1",
@@ -72,7 +65,6 @@ export const work = [
   {
     id: 8,
     category: "example",
-    img: "/src/assets/img/thumnail/imgdropthum.png",
     link: "https://uploadimg528.netlify.app",
     title: "Img upload",
     period: "1",
@@ -82,7 +74,6 @@ export const work = [
   {
     id: 9,
     category: "project",
-    img: "/src/assets/img/thumnail/apithum.png",
     link: "https://29moment.netlify.app/",
     title: "API 데이터",
     period: "1",
@@ -92,7 +83,6 @@ export const work = [
   {
     id: 10,
     category: "example",
-    img: "/src/assets/img/thumnail/blogthum.png",
     link: "https://architecture01-ssu.web.app/",
     title: "JQuery",
     period: "1",
@@ -102,7 +92,6 @@ export const work = [
   {
     id: 11,
     category: "project",
-    img: "/src/assets/img/thumnail/blogthum.png",
     link: "https://blog8090.netlify.app",
     title: "Blog",
     period: "1",
@@ -112,7 +101,6 @@ export const work = [
   {
     id: 12,
     category: "project",
-    img: "/src/assets/img/thumnail/playlistthum.png",
     link: "https://ssumusic.netlify.app",
     title: "PlayList",
     period: "1",
@@ -122,7 +110,6 @@ export const work = [
   {
     id: 13,
     category: "project",
-    img: "/src/assets/img/thumnail/blogthum.png",
     link: "https://hello-suhyeon-world-216.web.app/",
     title: "Introduce MYSELF",
     period: "1",
@@ -132,7 +119,6 @@ export const work = [
   {
     id: 14,
     category: "project",
-    img: "/src/assets/img/thumnail/blogthum.png",
     link: "https://hello-suhyeon-world-216.web.app/",
     title: "MOVIE",
     period: "1",
