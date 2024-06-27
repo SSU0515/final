@@ -69,7 +69,7 @@ const SpaceShipBox = styled(motion.div)`
 const SpaceShip = styled(motion.img)`
   position: -webkit-sticky;
   position: sticky;
-  top: 50px;
+  top: 100px;
   width: 204px;
 `;
 

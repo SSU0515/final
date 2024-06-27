@@ -14,7 +14,7 @@ import thum6 from "./data/thumnail/designthum/indesignthum.png";
 const Container = styled(motion.div)`
   width: 100%;
   position: relative;
-  padding-bottom: 150px;
+  padding-bottom: 250px;
 `;
 
 const TitleBox = styled.div`
@@ -131,6 +131,7 @@ const Design = () => {
 
   return (
     <Container
+      id="design"
       initial={{ opacity: 0, y: -100 }}
       whileInView={{
         opacity: 1,
@@ -143,7 +144,7 @@ const Design = () => {
         <TitleLine>
           <Title>Design</Title>
         </TitleLine>
-        <Ex>디자인 작업물입니다.마우스를 올려 자세한 정보를 확인해주세요.</Ex>
+        <Ex>디자인 작업물입니다. 마우스를 올려 자세한 정보를 확인해주세요.</Ex>
       </TitleBox>
       <ImgBox>
         {data.map((item, index) => (

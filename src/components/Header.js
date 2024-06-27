@@ -4,6 +4,9 @@ import logopng from "../assets/img/SUPace.png";
 
 const HeaderContainer = styled.header`
   width: 100%;
+  height: 100px;
+  max-width: 1920px;
+  min-width: 1440px;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -11,6 +14,8 @@ const HeaderContainer = styled.header`
   padding: 40px 70px;
   color: white;
   z-index: 99;
+  font-family: "nexonB";
+  background: rgba(15, 15, 15, 0.8);
 `;
 
 const Logo = styled.div`
@@ -47,24 +52,26 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Logo>
-        <img src={logopng} alt="Logo" />
+        <a href="#home">
+          <img src={logopng} alt="Logo" />
+        </a>
       </Logo>
       <Nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="/work">Work</a>
+            <a href="#work">Work</a>
           </li>
           <li>
-            <a href="/design">Design</a>
+            <a href="#design">Design</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </Nav>

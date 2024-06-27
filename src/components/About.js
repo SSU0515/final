@@ -82,6 +82,7 @@ const GraCloud = styled(motion.img)`
 const About = () => {
   return (
     <Container
+      id="about"
       initial={{ opacity: 0, y: -30 }}
       whileInView={{
         opacity: 1,

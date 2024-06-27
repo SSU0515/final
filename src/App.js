@@ -5,13 +5,17 @@ import Home from "./components/Home";
 import { Helmet } from "react-helmet";
 import { styled, createGlobalStyle } from "styled-components";
 
-// ------- styled components -------
 const GlobalStyle = createGlobalStyle`
 /* reset & font */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    /* ( 크롬, 사파리, 오페라, 엣지 ) 동작 */
+::-webkit-scrollbar {
+  display: none;
+}
 
 }
 li {

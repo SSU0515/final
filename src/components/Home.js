@@ -15,12 +15,13 @@ import About from "./About";
 import Skill from "./Skill";
 import Work from "./Work";
 import Design from "./Design";
+import Contact from "./Contact";
 
 const Container = styled.div`
   width: 100%;
   max-width: 1920px;
-  min-width: 1280px;
-  height: 7730px;
+  min-width: 1440px;
+  height: 7890px;
   position: relative;
   background-color: #110f0f;
 `;
@@ -159,7 +160,7 @@ const Cloud2 = styled(motion.img)`
 
 const Home = () => {
   return (
-    <Container>
+    <Container id="home">
       <TitleBox
         initial={{ opacity: 0, x: -100 }}
         whileInView={{
@@ -292,6 +293,7 @@ const Home = () => {
       <Skill />
       <Work />
       <Design />
+      <Contact />
     </Container>
   );
 };

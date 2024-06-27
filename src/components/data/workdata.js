@@ -7,6 +7,7 @@ export const work = [
     title: "Matin Kim",
     period: "1",
     hash: ["검색", "필터", "제품 상세페이지"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const work = [
     title: "Atude",
     period: "1",
     hash: ["메인페이지", "슬라이드"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const work = [
     title: "여기어때",
     period: "1",
     hash: ["메인페이지", "날짜"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const work = [
     title: "canvan(JS)",
     period: "1",
     hash: ["드래그이벤트", "로컬스토리지"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const work = [
     title: "todolist(React)",
     period: "1",
     hash: ["드래그이벤트", "로컬스토리지"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export const work = [
     title: "login & todolist(Node.js)",
     period: "1",
     hash: ["로그인", "데이터"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export const work = [
     title: "Blog",
     period: "1",
     hash: ["three.js", "3d 회전"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export const work = [
     title: "Img upload",
     period: "1",
     hash: ["이미지 드래그", "추가"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ export const work = [
     title: "API 데이터",
     period: "1",
     hash: ["날씨", "위치", "명언"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 10,
@@ -88,6 +97,7 @@ export const work = [
     title: "JQuery",
     period: "1",
     hash: ["jquery", "슬라이드"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 11,
@@ -97,6 +107,7 @@ export const work = [
     title: "Blog",
     period: "1",
     hash: ["싸이월드", "미니게임", "playlist"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 12,
@@ -106,6 +117,7 @@ export const work = [
     title: "PlayList",
     period: "1",
     hash: ["playlist", "애니메이션"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 13,
@@ -115,6 +127,7 @@ export const work = [
     title: "Introduce MYSELF",
     period: "1",
     hash: ["자기소개", "캐릭터"],
+    lang: "HTML/CSS/JS",
   },
   {
     id: 14,
@@ -124,5 +137,6 @@ export const work = [
     title: "MOVIE",
     period: "1",
     hash: ["영화API", "React"],
+    lang: "HTML/CSS/JS",
   },
 ];
