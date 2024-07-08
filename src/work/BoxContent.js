@@ -42,11 +42,17 @@ const ButtonBox = styled.div`
 `;
 
 const GitBtn = styled.img`
-  width: 90%;
+  width: 80%;
+  &:hover {
+    scale: 1.2;
+  }
 `;
 
 const ModalBtn = styled.img`
-  width: 90%;
+  width: 80%;
+  &:hover {
+    scale: 1.2;
+  }
 `;
 
 const Title = styled.h2`

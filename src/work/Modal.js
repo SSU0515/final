@@ -10,7 +10,7 @@ const Overlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   display: ${({ "data-modalopen": modalOpen }) =>
     modalOpen ? "block" : "none"};
   z-index: 15;
@@ -19,7 +19,7 @@ const Overlay = styled.div`
 const Container = styled(motion.div)`
   width: 80%;
   min-width: 980px;
-  background: #333;
+  background: #222;
   border-radius: 20px;
   padding: 40px;
   position: fixed;
