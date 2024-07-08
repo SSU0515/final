@@ -9,38 +9,6 @@ import twinkle2 from "../assets/img/startbg.png";
 import planet from "../assets/img/planet2.png";
 import space from "../assets/img/spaceship2.png";
 
-import thum1 from "./data/thumnail/workthum/matinkimthum.png";
-import thum2 from "./data/thumnail/workthum/etudethum.png";
-import thum3 from "./data/thumnail/workthum/hereokthum.png";
-import thum4 from "./data/thumnail/workthum/catmbtithum.png";
-import thum5 from "./data/thumnail/workthum/imgdropthum.png";
-import thum6 from "./data/thumnail/workthum/playlistthum.png";
-import thum7 from "./data/thumnail/workthum/blogthum.png";
-import thum8 from "./data/thumnail/workthum/canvanthum.png";
-import thum9 from "./data/thumnail/workthum/catmbtithum.png";
-import thum10 from "./data/thumnail/workthum/apithum.png";
-import thum11 from "./data/thumnail/workthum/playlistthum.png";
-import thum12 from "./data/thumnail/workthum/apithum.png";
-import thum13 from "./data/thumnail/workthum/canvanthum.png";
-import thum14 from "./data/thumnail/workthum/blogthum.png";
-
-const images = [
-  thum1,
-  thum2,
-  thum3,
-  thum4,
-  thum5,
-  thum6,
-  thum7,
-  thum8,
-  thum9,
-  thum10,
-  thum11,
-  thum12,
-  thum13,
-  thum14,
-];
-
 const Container = styled(motion.div)`
   width: 100%;
   height: 1390px;
@@ -302,7 +270,7 @@ const Work = () => {
             <Slide
               key={`prev-${filteredData[prevIndex].id}`}
               item={filteredData[prevIndex]}
-              img={images[prevIndex]}
+              img={filteredData[prevIndex].imglink}
               variants={boxVariants}
               custom={back}
               position="20px"
@@ -314,7 +282,7 @@ const Work = () => {
             <Slide
               key={filteredData[visible].id}
               item={filteredData[visible]}
-              img={images[visible]}
+              img={filteredData[visible].imglink}
               variants={boxVariants}
               custom={back}
               position="calc(50% - 250px)"
@@ -326,7 +294,7 @@ const Work = () => {
             <Slide
               key={`next-${filteredData[nextIndex].id}`}
               item={filteredData[nextIndex]}
-              img={images[nextIndex]}
+              img={filteredData[nextIndex].imglink}
               variants={boxVariants}
               custom={back}
               position="calc(100% - 420px)"

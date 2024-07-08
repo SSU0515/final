@@ -59,19 +59,29 @@ const Header = () => {
       <Nav>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home" rel="noopener noreferrer">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" rel="noopener noreferrer">
+              About
+            </a>
           </li>
           <li>
-            <a href="#work">Work</a>
+            <a href="#work" rel="noopener noreferrer">
+              Work
+            </a>
           </li>
           <li>
-            <a href="#design">Design</a>
+            <a href="#design" rel="noopener noreferrer">
+              Design
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" rel="noopener noreferrer">
+              Contact
+            </a>
           </li>
         </ul>
       </Nav>

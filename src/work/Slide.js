@@ -12,6 +12,9 @@ const BoxBase = styled(motion.div)`
   justify-content: center;
   align-items: center;
   text-align: left;
+  width: ${(props) => (props.size === "large" ? "500px" : "400px")};
+  height: ${(props) => (props.size === "large" ? "600px" : "500px")};
+  top: ${(props) => (props.size !== "large" ? "10%" : "0")};
 
   ${(props) =>
     props.size !== "large" &&
@@ -36,10 +39,7 @@ const BoxBase = styled(motion.div)`
     `}
 `;
 
-const Slide = ({ item, img, variants, custom, position, size, imgsize }) => {
-  const width = size === "large" ? "500px" : "400px";
-  const height = size === "large" ? "600px" : "500px";
-
+const Slide = ({ item, variants, custom, position, size, imgsize }) => {
   return (
     <BoxBase
       key={item.id}
@@ -48,10 +48,10 @@ const Slide = ({ item, img, variants, custom, position, size, imgsize }) => {
       initial="initial"
       animate="visible"
       exit="exit"
-      style={{ left: position, width, height }}
+      style={{ left: position }}
       size={size}
     >
-      <BoxContent item={item} img={img} imgsize={imgsize} />
+      <BoxContent item={item} img={item.imglink} imgsize={imgsize} />
     </BoxBase>
   );
 };

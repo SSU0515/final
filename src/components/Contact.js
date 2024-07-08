@@ -207,7 +207,7 @@ const Contact = () => {
           </Copyright>
         </Content>
       </ContactBox>
-      <a href="#home">
+      <a href="#home" rel="">
         <GoToTop
           initial={{ opacity: 0, y: -100 }}
           whileInView={{

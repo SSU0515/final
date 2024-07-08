@@ -38,7 +38,8 @@ const Title = styled.h1`
   font-size: 100px;
   letter-spacing: 5px;
   line-height: 110px;
-  padding: 270px 230px;
+  padding: 270px 216px;
+  z-index: 2;
   span {
     color: #001aff;
     letter-spacing: 3px;
